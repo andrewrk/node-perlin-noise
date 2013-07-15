@@ -5,7 +5,8 @@
 ```js
 var perlin = require('perlin-noise');
 
-perlin.generatePerlinNoise(480, 480);
+var noise = perlin.generatePerlinNoise(480, 480);
+// noise is an array with length 480 * 480
 ```
 
 ## Documentation
